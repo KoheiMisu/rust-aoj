@@ -110,13 +110,10 @@ fn find_most_appeared_word() -> ParseResult {
 
     let mut result = ParseResult::default();
 
-    for (_, word) in &words {
+    for (_, word) in words {
         if word.appeared == max_appeared.count {
             result.most_appeared_word = word.name.to_string();
         }
-    }
-
-    for (_, word) in &words {
         if word.word_length == max_appeared.longest_word {
             result.longest_word = word.name.to_string();
         }
