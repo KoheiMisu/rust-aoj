@@ -1,0 +1,39 @@
+[root]
+name = "AOJ"
+version = "0.1.0"
+dependencies = [
+ "libmath 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "round 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.22"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "libmath"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "rand 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rand"
+version = "0.3.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.22 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "round"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum libc 0.2.22 (registry+https://github.com/rust-lang/crates.io-index)" = "babb8281da88cba992fa1f4ddec7d63ed96280a1a53ec9b919fd37b53d71e502"
+"checksum libmath 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7106862740a3c76312d518470824620f186f2da3e5c4a4fedeafac6d5aabd7dc"
+"checksum rand 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)" = "022e0636ec2519ddae48154b028864bdce4eaf7d35226ab8e65c611be97b189d"
+"checksum round 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "da5443da9c42386407d904fe0e58a04be03deacabf0e5b952d265d9f590a6eec"
